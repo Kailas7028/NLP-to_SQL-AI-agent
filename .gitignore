@@ -1,0 +1,21 @@
+# Environment
+.env          # ignore real env
+!.env.example # allow example file to be committed
+.env.*        # ignore other env variants (like .env.local, .env.dev)
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+venv/
+.venv/
+
+# Databases
+*.db
+chromadb/
+
+# OS
+.DS_Store
+Thumbs.db

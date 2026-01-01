@@ -1,0 +1,15 @@
+# transformers
+# accelerate
+# bitsandbytes
+sentencepiece
+sqlalchemy[asyncio]
+aiosqlite
+chromadb
+python-dotenv
+sentence_transformers
+fastapi
+langchain-openai
+langgraph
+langchain
+uvicorn
+sqlglot
