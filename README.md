@@ -62,8 +62,6 @@ Result Summarization
 
 ---
 
-## 📁 Project Structure
-
 NLP_TO_SQL/
 ├── app/
 │   ├── api/          # Request/response schemas
@@ -81,6 +79,7 @@ NLP_TO_SQL/
 ├── .env.example       # Environment variable template
 ├── .gitignore
 └── README.md
+
 
 
 ---
