@@ -66,20 +66,19 @@ Result Summarization
 
 NLP_TO_SQL/
 ├── app/
-│ ├── api/ # Request/response schemas
-│ ├── core/ # Dependency container
-│ ├── db/ # DB engine & executor
-│ ├── graph/ # LangGraph state machine
-│ ├── llm/ # LLM client abstraction
-│ ├── rag/ # Schema documents, embeddings, vector store
-│ ├── prompts/ # Prompt templates
-│ ├── services/ # High-level agent service
-│ ├── tools/ # Utilities (SQL parsing, schema utils)
-│ ├── logger/ # Structured JSON logging
-│ └── init.py
-├── init_db.py # Database initialization (run once)
-├── main.py # FastAPI entrypoint
-├── .env.example # Environment variable template
+│   ├── api/          # Request/response schemas
+│   ├── core/         # Dependency container
+│   ├── db/           # DB engine & executor
+│   ├── graph/        # LangGraph state machine
+│   ├── llm/          # LLM client abstraction
+│   ├── rag/          # Schema documents, embeddings, vector store
+│   ├── prompts/      # Prompt templates
+│   ├── services/     # High-level agent service
+│   ├── tools/        # Utilities (SQL parsing, schema utils)
+│   └── logger/       # Structured JSON logging
+├── init_db.py         # Database initialization (run once)
+├── main.py            # FastAPI entrypoint
+├── .env.example       # Environment variable template
 ├── .gitignore
 └── README.md
 
